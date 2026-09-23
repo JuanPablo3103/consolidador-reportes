@@ -1,0 +1,23 @@
+# entorno virtual
+.venv/
+
+# cache de Python y pytest
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# datos y reportes, se conserva solo la carpeta
+data/input/*
+data/output/*
+!data/input/.gitkeep
+!data/output/.gitkeep
+
+# logs, se conserva solo la carpeta
+logs/*
+!logs/.gitkeep
+
+# archivos temporales de Excel
+~$*
+
+# configuración personal del editor
+.vscode/
